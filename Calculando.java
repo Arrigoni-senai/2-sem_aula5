@@ -11,32 +11,32 @@ public class Calculando implements Interface_Calculos {
 	}
 
 	public double somar() {
-		double resultado = numero1 + numero2;
-		System.out.println(numero1 + " + " + numero2 + " = " + resultado);
+		double resultado = numero1+numero2;
+		System.out.println(numero1 + "+" + numero2 + " = " + resultado);
 		return resultado;
 	}
 
 	public double sub() {
-		double resultado = numero1 - numero2;
-		System.out.println(numero1 + " - " + numero2 + " = " + resultado);
+		double resultado = numero1-numero2;
+		System.out.println(numero1 + "-" + numero2 + " = " + resultado);
 		return resultado;
 	}
 
 	public double mult() {
-		double resultado = numero1 * numero2;
-		System.out.println(numero1 + " × " + numero2 + " = " + resultado);
+		double resultado = numero1*numero2;
+		System.out.println(numero1 + "×" + numero2 + " = " + resultado);
 		return resultado;
 	}
 
 	public int div() {
-		int resultado = (int) (numero1 / numero2);
-		System.out.println(numero1 + " ÷ " + numero2 + " = " + resultado);
+		int resultado = (int) (numero1/numero2);
+		System.out.println(numero1 + "÷" + numero2 + " = " + resultado);
 		return resultado;
 	}
 
 	public int exp() {
 		int resultado = (int) Math.pow(numero1, numero2);
-		System.out.println(numero1 + " ^ " + numero2 + " = " + resultado);
+		System.out.println(numero1 + "^" + numero2 + " = " + resultado);
 		return resultado;
 	}
 

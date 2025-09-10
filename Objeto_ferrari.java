@@ -1,6 +1,6 @@
 package aula05atividades_2semestre;
 
-public class Ferrari {
+public class Objeto_ferrari {
 
 	public static void main(String[] args) {
 		System.out.println("Qual a marca do carro?");
