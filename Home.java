@@ -17,6 +17,4 @@ public class Home implements Interface_Computador{
 	public void carregandoSistema() {
 		System.out.println("O sistema do computador de casa está carregando");
 	}
-
-	
 }
